@@ -19,7 +19,6 @@ public class FirstTest {
 //		cap.setPlatform(Platform.LINUX);
 //		WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
 		driver.navigate().to("http://seleniumhq.org");
-//		Assert.assertTrue("Nieprawidlowy title", driver.getTitle().toLowerCase().contains("selenium"));
 		Assert.assertTrue(driver.getTitle().toLowerCase().contains("selenium"), "Nieprawidlowy title");
 //		driver.close();
 		driver.quit();
