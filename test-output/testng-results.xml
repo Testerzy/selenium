@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20296" started-at="2013-04-08T10:13:03Z" finished-at="2013-04-08T10:13:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20296" started-at="2013-04-08T10:13:03Z" finished-at="2013-04-08T10:13:23Z">
+      <class name="domena.pl.FirstTest">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:domena.pl.FirstTest@1256ea2]" name="startDriver" duration-ms="20296" started-at="2013-04-08T12:13:03Z" finished-at="2013-04-08T12:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+      </class> <!-- domena.pl.FirstTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

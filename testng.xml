@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test suite Selenium RC" verbose="3" parallel="false" thread-count="3">
+
+    <parameter name="url" value="http://google.pl" />
+    <parameter name="seleniumHost" value="localhost" />
+    <parameter name="seleniumPort" value="4444" />
+    <parameter name="browser" value="*firefox" />
+    
+    <test name="Test nr.1 ze suity testowej selenium_mvn_project" enabled="true">
+        <classes>
+            <class name="domena.pl.FirstTest">
+                <!-- <methods>
+                    <exclude name="startDriver"/>
+                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
